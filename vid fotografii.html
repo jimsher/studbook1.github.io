@@ -1,0 +1,73 @@
+<div align="center" style="width:110px;text-align:center" id="ePht20$ID$"<?if($MODER_PANEL$)?> onmouseover="openID2('photoscript$ID$')" onmouseout="closeID2('photoscript$ID$')"<?endif?>>
+
+<?if($MODER_PANEL$)?>
+<div style="display:none;padding:4px;cursor:pointer;position:absolute" id="photoscript$ID$" onclick="$(this).fadeOut(200);getFire('f_b$ID$');$.get('/index/92-2-$ID$-<?substr($MODER_PANEL$, strrpos($MODER_PANEL$,"','h")-8,8)?>',function(){setTimeout(function(){$('#ePht20$ID$').toggle(700);},2000)});">
+<div class="mdelete" onmouseover="classN('bom0$ID$', 'mdelete2')" onmouseout="classN('bom0$ID$', 'mdelete')" id="bom0$ID$">&nbsp</div>
+</div>
+ <div id="f_b$ID$" class="firebox">&nbsp;</div>
+<?endif?>
+
+ <div align="center" style="width:110px;height:110px;overflow:hidden;text-align:center">
+ <a href="$PHOTO_URL$">
+ <img src="<?if($PHOTO_DIRECT_URL$)?>$PHOTO_DIRECT_URL$<?else?>/img/none.png<?endif?>" alt="" height="110">
+ </a>
+ </div>
+
+</div>
+
+
+
+
+<?if($PAGE_ID$='udata')?>
+<div style="display:none" id="photomini">
+<a class="miniimage" href="javascript:;" onclick="selectImage('<?(substr($FULL_PHOTO_DIRECT_URL$,17))?>')">
+<img src="<?if($PHOTO_DIRECT_URL$)?>$PHOTO_DIRECT_URL$<?else?>/img/none.png<?endif?>" alt="">
+</a>
+</div>
+<div style="display:none" id="photomini2">
+<div class="miniimage">
+<a href="$PHOTO_URL$">
+<img src="<?if($PHOTO_DIRECT_URL$)?>$PHOTO_DIRECT_URL$<?else?>/img/none.png<?endif?>" alt="">
+</a>
+</div>
+</div>
+<div style="display:none" id="photomini3">
+<a class="minimg" href="javascript:;" onclick="blousePhoto('$PHOTO_DIRECT_URL$', '$PHOTO_URL$')">
+<img src="<?if($PHOTO_DIRECT_URL$)?>$PHOTO_DIRECT_URL$<?else?>/img/none.png<?endif?>" alt="">
+</a>
+</div>
+<div style="display:none" id="photomini4">
+<a class="miniimage" href="javascript:;" onclick="selectAvatar('$PHOTO_DIRECT_URL$')">
+<img src="<?if($PHOTO_DIRECT_URL$)?>$PHOTO_DIRECT_URL$<?else?>/img/none.png<?endif?>" alt="">
+</a>
+</div>
+<?endif?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span style="display:none;">
+<span id="photo">
+ <a href="$PHOTO_URL$" style="text-decoration:none;">
+ <img src="$PHOTO_DIRECT_URL$" style="width:500px; height:500px;">
+ </a>
+ <a href="$PHOTO_URL$" style="text-decoration:none;"></a>
+ </span>
+ </span>

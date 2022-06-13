@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title><?if($TEST_NAME$)?>$TEST_NAME$ - <?endif?><?if($CAT_NAME$)?>$CAT_NAME$ - <?endif?>$MODULE_NAME$ - $SITE_NAME$</title>
+<?$META_DESCRIPTION$?>
+<?$META_KEYWORDS$?>
+<link href="/.s/src/css/792.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="tests.css">
+
+</head>
+<body>
+$ADMIN_BAR$
+<div class="container-1">
+<!---------- left-sidebar,------------->
+<div class="left-sidebar">
+    <div class="imp-links">
+      <a href="#"><img src="images/news.png"> Latest News</a>
+      <a href="#"><img src="images/news.png"> Latest News</a>
+      <a href="#"><img src="images/news.png"> Latest News</a>
+      <a href="#"><img src="images/news.png"> Latest News</a>
+      <a href="#">See More</a>
+    </div>
+</div>
+<!----------- main-content------------>
+<div class="main-content">
+    <div id="shadow_top"></div>
+  <div id="container_bg">
+$GLOBAL_AHEADER$
+<div id="divider"></div>
+<!-- <middle> -->
+
+<div id="leftcol">
+<div class="sidebar">
+$GLOBAL_CLEFTER$
+</div>
+</div>
+
+<div id="maincol"><!-- <body> --><div class="breadcrumbs-wrapper">
+    <div class="breadcrumbs"><a href="$HOME_PAGE_LINK$"><!--<s5176>-->მთავარი<!--</s>--></a> &raquo; <?if($CAT_NAME$)?><a href="$MODULE_URL$"><!--<s5133>-->ტესტები<!--</s>--></a><?else?><?if($TEST_NAME$)?><a href="$MODULE_URL$"><!--<s5133>-->ტესტები<!--</s>--></a><?else?><!--<s5133>-->ტესტები<!--</s>--><?endif?><?endif?> <?if($TEST_NAME$)?><?if($CAT_NAME$)?>&raquo; <a href="$CAT_URL$">$CAT_NAME$</a> <?endif?>&raquo; $TEST_NAME$<?else?><?if($CAT_NAME$)?>&raquo; $CAT_NAME$<?endif?><?endif?></div>
+</div><hr />
+<?if($NO_CATEGORIES$)?>$CATEGORIES$<hr /><?endif?>
+$BODY$<!-- </body> --></div>
+
+<!-- </middle> -->
+$GLOBAL_BFOOTER$
+</div>
+<div id="shadow_bottom"></div>
+
+
+
+
+
+
+</div>
+<!----------- right-sidebar----------->
+<div class="right-sidebar">
+
+</div>
+<!---------- left-sidebar------------->
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="XA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profile.css.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav>
+    <div class="nav-left">
+        <img src="images/logo.png" class="logo">
+        <ul>
+         <li><img src="images/megobrebi.png"></li>
+         <li><img src="images/foto.png"></li>
+         <li><img src="images/home.png"></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+
+        <div class="search-box">
+           <img src="images/search.png">
+            <input type="text" placeholder="ძიება">
+        </div>
+        <div class="nav-user-icon online">
+            <img src="images/profile-pic.png" onclick="settingsMenuToggle()">
+        </div>
+
+    </div>
+   <!--------setting-menu----------------->
+    <div class="settings-menu">
+
+       <div id="dark-btn">
+           <span></span>
+       </div>
+
+
+        <div class="settings-menu-inner">
+              <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                    <p>jimsheri gvinjilia</p>
+                    <a href="#">See your profile</a>
+                </div>
+            </div>
+            <hr>
+
+        <div class="user-profile">
+                <img src="images/feedback.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="settings-links">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">Settings & privacy <img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="index.html">Logout <img src="images/arrow.png" width="10px"></a>
+            </div>
+
+
+
+        </div>
+
+          </div>
+
+
+    </nav>
+
+
+
+
+
+<!-----------profile page------------------->
+
+
+<div class="profile-container">
+    <img src="image-profile/cover.jpg" class="cover-img">
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="image-profile/profile.png" class="pd-image">
+                <div>
+                   <h3>Jimsher Ghvinjilia</h3>
+                   <p>120 friends - 20 mutual</p>
+                   <img src="image-profile/member-1.jpg">
+                   <img src="image-profile/member-2.jpg">
+                   <img src="image-profile/member-3.jpg">
+                   <img src="image-profile/member-4.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+
+            <button type="button"><img src="image-profile/add-friends.png"> Friends</button>
+            <button type="button"><img src="image-profile/message.png"> Message</button>
+            <br>
+            <a href=""><img src="image-profile/more.png"></a>
+        </div>
+     </div>
+
+     <div class="profile-info">
+        <div class="info-col">
+
+            <div class="profile-intro">
+                <h3>info</h3>
+                <p class="intro-text">ბაკალავრიატის სტუდენტთა რანჟირებულ სია. პროფესორ-მასწავლებელთა კონსულტაციის საათები. <img src="images/smile-11.png"></p>
+                <hr>
+                <ul>
+                    <i><a class="fa fa-briefcase" aria-hidden="true"></a>სასტიპენდიო პროგრამები </i>
+                    <i><a class="fa fa-graduation-cap" aria-hidden="true"></a>ახალგაზრდული ოლიმპიადა</i>
+                    <i><a class="fa fa-graduation-cap" aria-hidden="true"></a>მასწავლებელთა კონსულტაციის საათები</i>
+                    <i><a class="fa fa-home" aria-hidden="true"></a>სასტიპენდიო პროგრამები</i>
+                    <i><a class="fa fa-thumb-tack" aria-hidden="true"></a>სასტიპენდიო პროგრამები</i>
+                </ul>
+            </div>
+
+
+            <div class="profile-intro">
+               <div class="title-box">
+                <h3>ფოტო</h3>
+                <a href="">ყველა ფოტო</a>
+                </div>
+
+            <div class="photo-box">
+                    <div><img src="images/photo3.jpg"></div>
+                    <div><img src="images/photo3.jpg"></div>
+                    <div><img src="images/photo3.jpg"></div>
+                    <div><img src="images/photo3.jpg"></div>
+                    <div><img src="images/photo3.jpg"></div>
+                    <div><img src="images/photo3.jpg"></div>
+            </div>
+        </div>
+
+
+
+        <div class="profile-intro">
+               <div class="title-box">
+                <h3>მეგრობრები</h3>
+                <a href="">ყველა მეგობარი</a>
+            </div>
+            <p>120 (10 mutual)</p>
+            <div class="friends-box">
+                    <div><img src="images/photo3.jpg"> <p>Jesica G</p></div>
+                    <div><img src="images/photo5.jpg"> <p>Jimsher J</p></div>
+                    <div><img src="images/photo3.jpg"> <p>Larisa K</p></div>
+                    <div><img src="images/photo5.jpg"> <p>Shamugia L</p></div>
+                    <div><img src="images/photo5.jpg"> <p>Deppi la</p></div>
+                    <div><img src="images/photo3.jpg"> <p>Natia G</p></div>
+                    <div><img src="images/photo5.jpg"> <p>Jesica P</p></div>
+                    <div><img src="images/photo3.jpg"> <p>jesica d</p></div>
+                    <div><img src="images/photo5.jpg"> <p>Luiza ka</p></div>
+            </div>
+        </div>
+
+
+
+
+        </div>
+        <div class="post-col">
+           <div class="write-post-container">
+            <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                    <p>jimsheri gvinjilia</p>
+                    <small>public <i class="fas fa-caret-down"></i></small>
+                </div>
+            </div>
+
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="what s on your mind, jimi?"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="images/video.png"> Live Video</a>
+                    <a href="#"><img src="images/Photo.png"> Photo/Video</a>
+                    <a href="#"><img src="images/Feling.png"> Feling/Activity</a>
+                </div>
+            </div>
+
+        </div>
+
+           <div class="post-container">
+           <div class="post-row">
+                 <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                    <p>jimsheri gvinjilia</p>
+                    <span>may 14 2022, 11:13 mp</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+           </div>
+
+            <p class="post-text">subscribe <span>@Easy Tutorials</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/lana-jimi.jpg" class="post-img">
+
+            <div class="post-row">
+                <siv class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 45</div>
+                    <div><img src="images/share.png"> 20</div>
+                </siv>
+                <div class="post-profile-icon">
+                    <img src="images/prof.png"> <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+
+        </div>
+
+    <!--------posti 2----------------->
+
+    <div class="post-container">
+           <div class="post-row">
+                 <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                    <p>jimsheri gvinjilia</p>
+                    <span>may 14 2022, 11:13 mp</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+           </div>
+
+            <p class="post-text">subscribe <span>@Easy Tutorials</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/lana-jimi-2.JPG" class="post-img">
+
+            <div class="post-row">
+                <siv class="activity-icons">
+                    <div><img src="images/like-blue.png"> 168</div>
+                    <div><img src="images/comments.png"> 57</div>
+                    <div><img src="images/share.png"> 15</div>
+                </siv>
+                <div class="post-profile-icon">
+                    <img src="images/prof.png"> <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+
+        </div>
+
+
+   <!--------posti 3----------------->
+    <div class="post-container">
+           <div class="post-row">
+                 <div class="user-profile">
+                <img src="images/profile-pic.png">
+                <div>
+                    <p>jimsheri gvinjilia</p>
+                    <span>may 14 2022, 11:13 mp</span>
+                </div>
+            </div>
+            <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+           </div>
+
+            <p class="post-text">subscribe <span>@Easy Tutorials</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#EasyTutorials</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/lana-jimi-3.JPG" class="post-img">
+
+            <div class="post-row">
+                <siv class="activity-icons">
+                    <div><img src="images/like-blue.png"> 230</div>
+                    <div><img src="images/comments.png"> 89</div>
+                    <div><img src="images/share.png"> 4</div>
+                </siv>
+                <div class="post-profile-icon">
+                    <img src="images/prof.png"> <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+
+        </div>
+     </div>
+    </div>
+
+
+
+
+</div>
+
+
+<div class="footer">
+    <p>Copyright 2022 - Easy Tutorials YouTube Channel</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
